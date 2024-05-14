@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\lqvt2\Downloads\Demo1NUnit - Copy\Test\bin\Debug\Test.dll" total="8" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2024-05-14" time="14:25:51">
+  <environment nunit-version="2.7.1.0" clr-version="2.0.50727.9174" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\lqvt2\Downloads\NUnit-2.7.1\bin" machine-name="DESKTOP-UQE4A9T" user="lqvt2" user-domain="DESKTOP-UQE4A9T" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\lqvt2\Downloads\Demo1NUnit - Copy\Test\bin\Debug\Test.dll" executed="True" result="Success" success="True" time="0.132" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="0.123" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="xuLyTest" executed="True" result="Success" success="True" time="0.108" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="isNumber_TestCases" executed="True" result="Success" success="True" time="0.098" asserts="0">
+                <results>
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(&quot;123&quot;,True)" executed="True" result="Success" success="True" time="0.065" asserts="1" />
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(&quot;abc&quot;,False)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(&quot;&quot;,False)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(null,False)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(&quot;123.45&quot;,False)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(&quot;2147483647&quot;,True)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="Test.xuLyTest.isNumber_TestCases(&quot;-2147483648&quot;,True)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="Test.xuLyTest.TinhTongHaiSo_ValidInputs_ReturnsCorrectSum" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
